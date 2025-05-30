@@ -10,15 +10,15 @@ export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: {
-    canonical: "https://johnallendechavez.com/about",
+    canonical: "https://www.johnallendechavez.com/about",
   },
   openGraph: {
-    url: "https://johnallendechavez.com/about",
+    url: "https://www.johnallendechavez.com/about",
     title: TITLE,
     description: DESC,
     images: [
       {
-        url: "https://johnallendechavez.com/images/og-image.webp",
+        url: "https://www.johnallendechavez.com/images/og-image.webp",
         width: 1200,
         height: 640,
       },
@@ -28,10 +28,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "https://johnallendechavez.com/about",
+    site: "https://www.johnallendechavez.com/about",
     title: TITLE,
     description: DESC,
-    images: "https://johnallendechavez.com/images/og-image.webp",
+    images: "https://www.johnallendechavez.com/images/og-image.webp",
   },
 };
 

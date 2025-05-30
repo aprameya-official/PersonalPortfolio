@@ -12,20 +12,20 @@ const firaCode = Fira_Code({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://johnallendechavez.com"),
+  metadataBase: new URL("https://www.johnallendechavez.com"),
 
   title: "John Allen de Chavez",
   description: "Front-End Developer",
   alternates: {
-    canonical: "https://johnallendechavez.com",
+    canonical: "https://www.johnallendechavez.com",
   },
   openGraph: {
-    url: "https://johnallendechavez.com",
+    url: "https://www.johnallendechavez.com",
     title: "John Allen de Chavez",
     description: "Front-End Developer",
     images: [
       {
-        url: "https://johnallendechavez.com/images/og-image.webp",
+        url: "https://www.johnallendechavez.com/images/og-image.webp",
         width: 1200,
         height: 640,
       },
@@ -35,10 +35,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "https://johnallendechavez.com",
+    site: "https://www.johnallendechavez.com",
     title: "John Allen de Chavez",
     description: "Front-End Developer",
-    images: "https://johnallendechavez.com/images/og-image.webp",
+    images: "https://www.johnallendechavez.com/images/og-image.webp",
   },
 
   authors: [
@@ -72,7 +72,7 @@ export default function RootLayout({
         <script
           data-name="BMC-Widget"
           data-cfasync="false"
-          src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+          src="https://www.cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
           data-id="johnallend9"
           data-description="Support me on Buy me a coffee!"
           data-message="Insufficient coffee"

@@ -1,4 +1,4 @@
 User-Agent: *
 Allow: /
 
-Sitemap: https://johnallendechavez.com/sitemap.xml
+Sitemap: https://www.johnallendechavez.com/sitemap.xml
