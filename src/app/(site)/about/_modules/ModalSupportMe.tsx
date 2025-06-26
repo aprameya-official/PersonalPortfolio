@@ -30,10 +30,7 @@ interface Props {
 
 const ModalSupportMe = ({
   modalRef,
-  username,
   goal_id,
-  success_redirect_url,
-  failure_redirect_url,
   handleOpenConfirm,
 }: Props) => {
   const [modal, createModal] = useModal();

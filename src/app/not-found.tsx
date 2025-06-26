@@ -21,7 +21,7 @@ const NotFound = () => {
           className="w-full rounded-3xl  overflow-hidden aspect-square"
         >
           <Img
-            alt="John Allen de Chavez"
+            alt="Aprameya Pattnaik"
             src="/images/zambales.jpg"
             height="1410"
             width="1360"

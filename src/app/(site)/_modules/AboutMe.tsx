@@ -34,9 +34,9 @@ const AboutMe = () => {
           variants={swivelVariants}
           className="flex items-start flex-col space-y-4 lg:max-w-[515px] text-gray"
         >
-          <p>Hey, I'm Aprameya — a final-year CSE student who sees coding as more than logic; it's a vibe.</p>
+          <p>Hey, I&apos;m Aprameya — a final-year CSE student who sees coding as more than logic; it&apos;s a vibe.</p>
           <p>
-          I love solving complex problems and turning them into clean, intuitive digital experiences. Whether it's crafting smooth UIs with React or building structured backends with Spring Boot and FastAPI, I aim for solutions that are both smart and satisfying to use.
+          I love solving complex problems and turning them into clean, intuitive digital experiences. Whether it&apos;s crafting smooth UIs with React or building structured backends with Spring Boot and FastAPI, I aim for solutions that are both smart and satisfying to use.
           </p>
           <p>
           I often blend traditional coding with AI agents and prompt-driven workflows to build faster, design better, and explore creative edge cases. From AI-powered fitness apps to hospital management systems, I build with purpose and precision.

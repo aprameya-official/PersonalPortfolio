@@ -16,7 +16,7 @@ const Education = () => (
     </div>
     <div className="flex flex-col gap-4 text-gray">
       <div>
-        <strong>Siksha 'o' Anusandhan University (ITER), Bhubaneshwar, Odisha</strong> <span className="text-xs">2021 - 2025</span><br/>
+        <strong>Siksha &apos;o&apos; Anusandhan University (ITER), Bhubaneshwar, Odisha</strong> <span className="text-xs">2021 - 2025</span><br/>
         Bachelor of Technology in Computer Science and Engineering (CGPA-7.41)
       </div>
       <div>
@@ -24,7 +24,7 @@ const Education = () => (
         Senior Secondary Education (Secured-75.67%)
       </div>
       <div>
-        <strong>St Xavier's High School, Bhadrak, Odisha</strong> <span className="text-xs">2018 - 2019</span><br/>
+        <strong>St Xavier&apos;s High School, Bhadrak, Odisha</strong> <span className="text-xs">2018 - 2019</span><br/>
         Secondary Education (Secured-84%)
       </div>
     </div>

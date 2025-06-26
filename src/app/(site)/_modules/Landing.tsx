@@ -111,11 +111,11 @@ const Landing = ({ show = true }) => {
               variants={fadeIn("down", "spring", 0.2, 0.4)}
               className="font-semibold"
             >
-              <span className="text-3xl md:text-5xl font-bold block">I'm Aprameya Pattnaik,</span>
+              <span className="text-3xl md:text-5xl font-bold block">I&apos;m Aprameya Pattnaik,</span>
               <span className="text-accent text-xl md:text-2xl block break-words">Full Stack Developer|| WebSecurity Curious|| GEN-AI Enthusiast</span>
             </motion.h1>
             <motion.p variants={swivelVariants} className="text-gray-900 dark:text-gray-100">
-            I build full-stack applications that merge smooth interfaces with resilient systems. Backed by a passion for clean UX, secure cloud development, and AI-enhanced coding, I focus on delivering software that's as thoughtful as it is technical.
+            I build full-stack applications that merge smooth interfaces with resilient systems. Backed by a passion for clean UX, secure cloud development, and AI-enhanced coding, I focus on delivering software that&apos;s as thoughtful as it is technical.
             </motion.p>
             <motion.div
               variants={fadeIn("up", "spring", 0.2, 0.4)}
@@ -139,7 +139,7 @@ const Landing = ({ show = true }) => {
               className=" absolute top-[-1.2rem] bg-primary p-2 left-2"
             />
             <p className="text-24">
-              echo "Synced with VS Code | AI Copilot active | Status: Connected [
+              echo &quot;Synced with VS Code | AI Copilot active | Status: Connected [
                 <span className='inline-block align-middle ml-1'>
                   <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={2} stroke='currentColor' className='w-5 h-5 inline text-accent hover:text-yellow-600 dark:hover:text-yellow-400 transition-colors'>
                     {/* Animated WiFi signal bars */}
