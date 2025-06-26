@@ -33,15 +33,15 @@ const AboutMe = () => {
           variants={swivelVariants}
           className="flex items-start flex-col space-y-4 lg:max-w-[515px] text-gray"
         >
-          <p>Hi, I'm Aprameya Pattnaik. My journey in tech started with curiosity—taking apart gadgets as a kid, then building my first website in high school. That spark grew into a passion for creating things that make life easier, smarter, and a little more fun.</p>
+          <p>Hi, I&apos;m Aprameya Pattnaik. My journey in tech started with curiosity—taking apart gadgets as a kid, then building my first website in high school. That spark grew into a passion for creating things that make life easier, smarter, and a little more fun.</p>
           <p>
-            I'm a final-year Computer Science Engineering student, but my learning goes far beyond the classroom. I've built everything from AI-powered fitness apps to full-stack hospital management systems, always focusing on how technology can solve real problems. I love blending frontend creativity (React, Next.js) with robust backend logic (Spring Boot, FastAPI, MySQL), and I'm always exploring new tools—especially in AI and automation.
+            I&apos;m a final-year Computer Science Engineering student, but my learning goes far beyond the classroom. I&apos;ve built everything from AI-powered fitness apps to full-stack hospital management systems, always focusing on how technology can solve real problems. I love blending frontend creativity (React, Next.js) with robust backend logic (Spring Boot, FastAPI, MySQL), and I&apos;m always exploring new tools—especially in AI and automation.
           </p>
           <p>
-            What drives me isn't just code—it's the impact. I believe great software is about empathy: understanding users, anticipating needs, and delivering experiences that feel effortless. I thrive in collaborative teams, value clean code, and enjoy mentoring or learning from others. Certifications in cybersecurity and cloud (AWS, Google) have helped me see the bigger picture of building secure, scalable systems.
+            What drives me isn&apos;t just code—it&apos;s the impact. I believe great software is about empathy: understanding users, anticipating needs, and delivering experiences that feel effortless. I thrive in collaborative teams, value clean code, and enjoy mentoring or learning from others. Certifications in cybersecurity and cloud (AWS, Google) have helped me see the bigger picture of building secure, scalable systems.
           </p>
           <p>
-            Beyond code, I'm a night owl who loves late-night problem-solving, cricket matches, and long drives. I find inspiration in music, mountains, and the quiet moments when ideas click. My goal? To keep learning, keep building, and use tech to make a positive difference—one project at a time.
+            Beyond code, I&apos;m a night owl who loves late-night problem-solving, cricket matches, and long drives. I find inspiration in music, mountains, and the quiet moments when ideas click. My goal? To keep learning, keep building, and use tech to make a positive difference—one project at a time.
           </p>
         </motion.div>
 

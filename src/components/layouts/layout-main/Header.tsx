@@ -3,7 +3,6 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import NavMobile from "./NavMobile";
 import NavDesktop from "./NavDesktop";
-import { usePathname } from "next/navigation";
 
 export const LINK_LIST = [
   {

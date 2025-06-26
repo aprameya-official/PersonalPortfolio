@@ -216,7 +216,7 @@ const Landing = ({ show = true }) => {
                     </g>
                   </svg>
                 </span>
-              ]"
+              ]&quot;
             </p>
           </div>
           <div className="border border-t-0 border-gray-400 dark:border-gray-200 p-3 lg:p-4 self-end relative">
