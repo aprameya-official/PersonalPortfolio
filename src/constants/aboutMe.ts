@@ -49,7 +49,7 @@ export const TECHSTACKS = [
   },
   {
     name: "My-SQL",
-    img: "/tech-stack/linux-plain.svg",
+    img: "/tech-stack/sql.svg",
   },
 ];
 
