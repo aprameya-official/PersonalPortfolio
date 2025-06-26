@@ -44,7 +44,7 @@ const FormInputTextArea = ({
           autoComplete="off"
           rows={rows}
           className={[
-            "border border-gray py-2 focus:border-white bg-primary  outline-none flex-1 px-4 text-16 w-full peer",
+            "border border-gray py-2 focus:border-accent bg-secondary dark:bg-secondary-dark outline-none flex-1 px-4 text-16 w-full peer",
             !isValid ? "!border-red-500" : "",
             disabled && "cursor-progress opacity-50",
             classNameInput,
@@ -53,7 +53,7 @@ const FormInputTextArea = ({
         {label && (
           <span
             className={[
-              "absolute  left-2 translate-y-1/2  bg-primary px-2 transition-all ease-linear  cursor-text select-none",
+              "absolute left-2 translate-y-1/2 px-2 transition-all ease-linear cursor-text select-none",
               "peer-focus:opacity-100 peer-focus:text-[12px] peer-focus:font-bold peer-focus:translate-y-[-0.7rem]",
               value.length > 0
                 ? "opacity-100 text-[12px] font-bold translate-y-[-0.7rem]"

@@ -1,61 +1,64 @@
 export const TECHSTACKS = [
   {
     name: "JavaScript (ES6+)",
-    img: "/images/tech-stack/javascript.svg",
+    img: "/tech-stack/javascript-original.svg",
   },
   {
     name: "TypeScript",
-    img: "/images/tech-stack/typescript.svg",
+    img: "/tech-stack/typescript-original.svg",
   },
   {
     name: "ReactJS",
-    img: "/images/tech-stack/react.svg",
+    img: "/tech-stack/react-original.svg",
   },
   {
     name: "NextJS",
-    img: "/images/tech-stack/nextjs.svg",
+    img: "/tech-stack/next.svg",
   },
   {
     name: "Framer Motion",
-    img: "/images/tech-stack/framer-motion.svg",
+    img: "/tech-stack/framermotion-original-wordmark.svg",
   },
   {
     name: "Tailwind CSS",
-    img: "/images/tech-stack/tailwind-css.svg",
+    img: "/tech-stack/tailwindcss-original.svg",
   },
   {
-    name: "HTML5",
-    img: "/images/tech-stack/html-5.svg",
+    name: "Linux",
+    img: "/tech-stack/linux-plain.svg",
   },
   {
-    name: "NodeJS",
-    img: "/images/tech-stack/node-js.svg",
+    name: "Spring Boot",
+    img: "/tech-stack/spring-original.svg",
   },
   {
-    name: "MongoDB",
-    img: "/images/tech-stack/mongodb.svg",
-  },
-  {
-    name: "Laravel",
-    img: "/images/tech-stack/laravel.png",
-  },
-  {
-    name: "CSS3",
-    img: "/images/tech-stack/laravel.png",
+    name: "Supabase",
+    img: "/tech-stack/supabase-original.svg",
   },
   {
     name: "Git",
-    img: "/images/tech-stack/laravel.png",
+    img: "/tech-stack/git-plain.svg",
+  },
+  {
+    name: "Python",
+    img: "/tech-stack/python-original.svg",
+  },
+  {
+    name: "AWS",
+    img: "/tech-stack/amazonwebservices-plain-wordmark.svg",
+  },
+  {
+    name: "My-SQL",
+    img: "/tech-stack/linux-plain.svg",
   },
 ];
 
 export const HOBBY_INTEREST = [
-  "Cycling",
+  "Driving",
   "Gaming",
-  "Motorcycling",
   "Nature Trip",
   "UI Design",
   "Coffee",
   "Gym",
-  "Web Development",
+  "AI-Web Development",
 ];

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Content from "./_modules";
 
-const TITLE = "Projects - John Allen de Chavez";
+const TITLE = "Projects - Aprameya Pattnaik";
 const DESC =
   "Explore my projects, where creativity meets problem-solving. Discover innovative designs and functional solutions built with care and attention to detail.";
 
@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: {
-    canonical: "https://www.johnallendechavez.com/projects",
+    canonical: "https://aprameya-portfolio.com/projects",
   },
   openGraph: {
-    url: "https://www.johnallendechavez.com/projects",
+    url: "https://aprameya-portfolio.com/projects",
     title: TITLE,
     description: DESC,
     images: [
       {
-        url: "https://www.johnallendechavez.com/images/og-image.webp",
+        url: "https://aprameya-portfolio.com/images/og-image.webp",
         width: 1200,
         height: 640,
       },
@@ -27,10 +27,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "https://www.johnallendechavez.com/projects",
+    site: "https://aprameya-portfolio.com/projects",
     title: TITLE,
     description: DESC,
-    images: "https://www.johnallendechavez.com/images/og-image.webp",
+    images: "https://aprameya-portfolio.com/images/og-image.webp",
   },
 };
 

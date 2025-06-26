@@ -3,18 +3,18 @@ import Icon from "@/components/elements/Icon";
 export const SOCIALS = [
   {
     name: "Github",
-    linkTo: "https://acme.com",
+    linkTo: "https://github.com/aprameya-official",
     icon: "/icons/github.svg",
   },
   {
     name: "Linkedin",
-    linkTo: "https://acme.com",
+    linkTo: "https://www.linkedin.com/in/aprameya-p-a27943174/",
     icon: "/icons/linkedin.svg",
   },
   {
-    name: "Discord",
-    linkTo: "https://acme.com",
-    icon: "/icons/discord.svg",
+    name: "LeetCode",
+    linkTo: "https://leetcode.com/u/pattnaikaprameya/",
+    icon: "/icons/leetcode.svg",
   },
 ];
 const Footer = () => {
@@ -34,9 +34,9 @@ const Footer = () => {
         ))}
       </div>
       <p className="text-gray text-center text-sm">
-        ©{new Date().getFullYear()}{" "}
-        <a href="https://acme.com" target="_blank" rel="noopener noreferrer">
-          jxhnxllxn
+        ©{new Date().getFullYear()} {" "}
+        <a href="https://github.com/aprameya-official" target="_blank" rel="noopener noreferrer">
+          Aprameya Pattnaik
         </a>
         . All rights reserved.
       </p>

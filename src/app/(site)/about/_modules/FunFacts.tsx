@@ -3,12 +3,15 @@ import { motion } from "framer-motion";
 import { fadeIn } from "@/utils/motion";
 
 const MY_FUN_FACTS = [
-  "I like pizza and pasta",
-  "I often bike alone",
-  "I am nature lover",
-  "I am the breadwinner",
-  "I am introvert",
-  "I love motorcycle",
+  "debug better after a coffee",
+  "love to play cricket",
+  "vibe-code at 2AM when the world is quiet",
+  "prefer mountains over beaches",
+  "am an introvert",
+  "prefer long drives",
+  "daydream about building at FAANG",
+  "find peace in clean UI and dark mode",
+  "trust GPT more than people sometimes"
 ];
 const FunFacts = () => {
   return (

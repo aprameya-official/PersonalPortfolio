@@ -16,7 +16,7 @@ const BtnLink = ({ href, title, target, rel = "", className }: Props) => {
       target={target}
       rel={target === "_blank" ? "noopener noreferrer" : rel}
       className={[
-        "border border-accent hover:bg-accent hover:bg-opacity-20 font-medium py-1 px-4 text-white",
+        "border border-accent hover:bg-accent hover:bg-opacity-20 font-medium py-1 px-4 text-gray-900 dark:text-gray-100",
         className,
       ].join(" ")}
     >

@@ -34,18 +34,12 @@ const AboutMe = () => {
           variants={swivelVariants}
           className="flex items-start flex-col space-y-4 lg:max-w-[515px] text-gray"
         >
-          <p>Hello, I&apos;m John Allen,</p>
+          <p>Hey, I'm Aprameya — a final-year CSE student who sees coding as more than logic; it's a vibe.</p>
           <p>
-            A front-end developer from the Philippines with a passion for
-            crafting sleek, responsive websites from the ground up. I transform
-            ideas into modern, intuitive web experiences that engage users and
-            enhance brand presence.
+          I love solving complex problems and turning them into clean, intuitive digital experiences. Whether it's crafting smooth UIs with React or building structured backends with Spring Boot and FastAPI, I aim for solutions that are both smart and satisfying to use.
           </p>
           <p>
-            With a track record of helping clients build a robust online
-            identity, I stay ahead of industry trends and am constantly
-            exploring new technologies and frameworks to ensure every project is
-            impactful and up-to-date.
+          I often blend traditional coding with AI agents and prompt-driven workflows to build faster, design better, and explore creative edge cases. From AI-powered fitness apps to hospital management systems, I build with purpose and precision.
           </p>
           <motion.div
             variants={fadeIn("up", "tween", 0.2, 0.5)}
@@ -58,7 +52,7 @@ const AboutMe = () => {
         <div>
           <div className="relative hidden lg:block">
             <Img
-              src="/images/about-me-1.png"
+              src="/images/about-me.png"
               alt="hacker"
               width="339"
               height="507"

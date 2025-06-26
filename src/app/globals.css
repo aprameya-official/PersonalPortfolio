@@ -2,21 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root {
-  --background: #ffffff;
-  --foreground: #171717;
+:root {
+  --background: #f7f8fa;
+  --foreground: #10172A;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #282C33;
-    --foreground: #ededed;
-  }
-} */
+.dark {
+  --background: #10172A;
+  --foreground: #f7f8fa;
+}
 
 @layer base {
   body {
-    @apply font-primary bg-primary text-white leading-loose text-16 overflow-y-scroll lg:max-w-[calc(100vw-8px)];
+    @apply font-primary leading-loose text-16 overflow-y-scroll lg:max-w-[calc(100vw-8px)];
+    background-color: var(--background);
+    color: var(--foreground);
+    transition: background 0.3s, color 0.3s;
   }
 
   .text-16 {
@@ -45,5 +45,85 @@
 
   ::-webkit-scrollbar-thumb {
     @apply lg:bg-gray lg:bg-opacity-50;
+  }
+}
+
+@layer utilities {
+  .bg-primary {
+    @apply bg-[#f7f8fa];
+  }
+  .dark .bg-primary {
+    @apply bg-[#102a27];
+  }
+  @keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+  }
+  .animate-float {
+    animation: float 2.5s ease-in-out infinite;
+  }
+  
+  @keyframes signalPulse {
+    0% { 
+      opacity: 0.4; 
+      stroke-width: 2;
+    }
+    25% { 
+      opacity: 0.7; 
+      stroke-width: 2.5;
+    }
+    50% { 
+      opacity: 1; 
+      stroke-width: 3;
+    }
+    75% { 
+      opacity: 0.7; 
+      stroke-width: 2.5;
+    }
+    100% { 
+      opacity: 0.4; 
+      stroke-width: 2;
+    }
+  }
+  @keyframes signalWave {
+    0%, 100% { opacity: 0.3; stroke-width: 2; }
+    20% { opacity: 1; stroke-width: 3; }
+    40%, 90% { opacity: 0.3; stroke-width: 2; }
+  }
+  @keyframes signalDotPop {
+    0%, 100% { opacity: 0.5; transform: scale(1); filter: drop-shadow(0 0 0px #FFD600); }
+    20% { opacity: 1; transform: scale(1.25); filter: drop-shadow(0 0 8px #FFD600); }
+    40%, 90% { opacity: 0.5; transform: scale(1); filter: drop-shadow(0 0 0px #FFD600); }
+  }
+  .btn-animate {
+    transition: transform 0.18s cubic-bezier(0.4,0,0.2,1), box-shadow 0.18s cubic-bezier(0.4,0,0.2,1);
+  }
+  .btn-animate:hover, .btn-animate:focus {
+    transform: scale(1.06);
+    box-shadow: 0 2px 12px 0 #FFD60033;
+  }
+  .icon-animate {
+    transition: transform 0.18s cubic-bezier(0.4,0,0.2,1), box-shadow 0.18s cubic-bezier(0.4,0,0.2,1);
+  }
+  .icon-animate:hover, .icon-animate:focus {
+    transform: scale(1.13);
+    box-shadow: 0 2px 12px 0 #FFD60033;
+  }
+  .logo-bounce {
+    transition: transform 0.18s cubic-bezier(0.4,0,0.2,1);
+  }
+  .logo-bounce:active {
+    transform: scale(0.93) translateY(4px);
+  }
+  @keyframes ropeWiggle {
+    0%, 100% { transform: rotate(0deg); }
+    20% { transform: rotate(-3deg); }
+    40% { transform: rotate(2deg); }
+    60% { transform: rotate(-2deg); }
+    80% { transform: rotate(2deg); }
+  }
+  .rope-wiggle {
+    animation: ropeWiggle 2.5s ease-in-out infinite;
   }
 }

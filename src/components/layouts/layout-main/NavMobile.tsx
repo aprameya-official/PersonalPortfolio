@@ -76,10 +76,11 @@ const NavMobile = ({ activeSection }: { activeSection: string }) => {
                 type="button"
                 onClick={() => handleMobileNavigate(x.linkTo)}
                 className={[
-                  "px-4 py-6 block hover:text-white text-center w-full",
+                  "px-4 py-6 block text-center w-full transition-colors duration-200",
                   activeSection === x.linkTo.replace("/#", "")
-                    ? "text-white"
-                    : "text-gray",
+                    ? "text-accent font-bold"
+                    : "text-gray-500 dark:text-gray-300",
+                  "hover:text-accent",
                 ].join(" ")}
               >
                 <span className="text-accent">#</span>

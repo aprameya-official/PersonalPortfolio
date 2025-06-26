@@ -12,7 +12,8 @@ const BtnAction = ({ title, className, disabled, runAction }: Props) => {
       onClick={runAction}
       disabled={disabled}
       className={[
-        "border  font-medium py-1 px-4 text-white cursor-pointer",
+        "border font-medium py-1 px-4 cursor-pointer",
+        "text-gray-900 dark:text-gray-100",
         disabled
           ? "bg-gray bg-opacity-20 border-gray opacity-50 cursor-progress"
           : "hover:bg-accent hover:bg-opacity-20 border-accent ",

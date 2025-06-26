@@ -15,14 +15,14 @@ import ModalUnexpectedError from "../../../../components/commons/ModalUnexpected
 import axios from "axios";
 
 const MyGoals = () => {
-  const { data, mutate } = useGetGoal({ username: "johnallen", id: 1 });
+  const { data, mutate } = useGetGoal({ username: "aprameya", id: 1 });
   const {
     data: dataDonations,
     triggerRef,
     isEnd,
     error: errorDonations,
   } = useSWRPagination({
-    url: "/v1/profile/goals/donations/johnallen/goal_id/1",
+    url: "/v1/profile/goals/donations/aprameya/goal_id/1",
     params: {
       per_page: 24,
     },
@@ -39,11 +39,11 @@ const MyGoals = () => {
 
   const handleContributeGoal = () => {
     createModal(ModalSupportMe, {
-      username: "johnallen",
+      username: "aprameya",
       goal_id: 1,
       isGoalDonation: 1,
-      success_redirect_url: `https://johnallendechavez/about`,
-      failure_redirect_url: `https://johnallendechavez/about`,
+      success_redirect_url: `https://aprameya-portfolio.com/about`,
+      failure_redirect_url: `https://aprameya-portfolio.com/about`,
       handleOpenConfirm,
     });
   };

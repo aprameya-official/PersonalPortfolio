@@ -15,6 +15,10 @@ import ModalUnexpectedError from "@/components/commons/ModalUnexpectedError";
 import { motion } from "framer-motion";
 import { fadeIn, swivelVariants, zoomIn } from "@/utils/motion";
 
+const EMAILJS_SERVICE_ID = "service_c7qcuq5";
+const EMAILJS_USER_ID = "_9ZNA19N3t29RcXV3";
+const EMAILJS_TEMPLATE_ID = "template_chztu2c";
+
 const Contact = () => {
   const [modal, createModal] = useModal();
   const [loading, setLoading] = useState(false);
@@ -55,9 +59,9 @@ const Contact = () => {
     setLoading(true);
     try {
       await axios.post("https://api.emailjs.com/api/v1.0/email/send", {
-        service_id: "service_mippf16",
-        template_id: process.env.NEXT_PUBLIC_EMAIL_JS_TEMPLATE_ID,
-        user_id: process.env.NEXT_PUBLIC_EMAIL_JS_USER_ID,
+        service_id: EMAILJS_SERVICE_ID,
+        template_id: EMAILJS_TEMPLATE_ID,
+        user_id: EMAILJS_USER_ID,
         template_params: form,
       });
       setLoading(false);

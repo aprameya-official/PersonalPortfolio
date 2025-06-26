@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
+  darkMode: 'class',
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -26,12 +27,24 @@ const config: Config = {
         xs: "500px",
       },
       colors: {
-        primary: "#282C33",
-        secondary: "#1A3843",
-        gray: "#ABB2BF",
+        primary: {
+          DEFAULT: "#f7f8fa",
+          dark: "#102a27",
+        },
+        secondary: {
+          DEFAULT: "#e3e6f3",
+          dark: "#1a3a36",
+        },
+        gray: {
+          DEFAULT: "#5A6273",
+          dark: "#e6e6e6",
+        },
         accent: {
-          DEFAULT: "#C778DD",
-          hover: "#00e187",
+          DEFAULT: "#FFD600",
+          hover: "#FFB300",
+          gradient1: "#FFD600",
+          gradient2: "#FFB300",
+          dark: "#FFD600",
         },
       },
     },

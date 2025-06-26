@@ -9,7 +9,7 @@ import {
 import { TECHSTACKS } from "@/constants/aboutMe";
 
 type tagSphereProps = {
-  texts: (string | ReactNode)[];
+  texts: ({ name: string; img: string } | string | ReactNode)[];
   radius?: number;
   maxSpeed: number;
   initialSpeed: number;
@@ -97,7 +97,7 @@ const updateItemPosition = (item: any, sc: number[], depth: number) => {
 };
 
 const createItem = (
-  text: string | ReactNode,
+  text: { name: string; img: string } | string | ReactNode,
   index: number,
   textsLength: number,
   size: number,
@@ -123,9 +123,28 @@ const createItem = (
     transform: transform,
   } as CSSProperties;
 
+  let content;
+  if (typeof text === "object" && text !== null && "img" in text) {
+    content = (
+      <span className="flex items-center gap-2 group">
+        <img
+          src={text.img}
+          alt={text.name + " icon"}
+          width={22}
+          height={22}
+          className="inline-block transition-transform duration-300 group-hover:scale-125 group-hover:rotate-6 drop-shadow-md"
+          style={{ filter: 'drop-shadow(0 1px 2px #0002)' }}
+        />
+        <span>{text.name}</span>
+      </span>
+    );
+  } else {
+    content = text;
+  }
+
   const itemEl = (
     <span ref={itemRef} key={index} style={itemStyles}>
-      {text}
+      {content}
     </span>
   );
 
@@ -137,7 +156,7 @@ const createItem = (
 };
 
 const defaultState: tagSphereProps = {
-  texts: TECHSTACKS.map((x) => x.name),
+  texts: TECHSTACKS.map((x) => ({ name: x.name, img: x.img })),
   maxSpeed: 3,
   initialSpeed: 20,
   initialDirection: 135,

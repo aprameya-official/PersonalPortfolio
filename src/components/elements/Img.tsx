@@ -19,7 +19,7 @@ const Img: React.FC<Props> = ({
   alt = "",
   className,
   draggable = false,
-  altImg = "/icons/johnallendechavez.svg",
+  altImg = "/icons/apram.png",
   width,
   height,
   style,

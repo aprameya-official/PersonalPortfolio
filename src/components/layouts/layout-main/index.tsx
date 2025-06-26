@@ -25,12 +25,12 @@ const LayoutMain = ({ children }: Props) => {
     <>
       <AnimatePresence>{loading && <LandingPageLoader />}</AnimatePresence>
       {!loading && (
-        <div className="relative">
+        <div className="relative bg-primary min-h-screen">
           <motion.div
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0.2 }}
-            className="hidden  h-[311px] max-h-[90vh] xl:flex flex-col items-center  fixed top-0 left-[2rem] z-10 bg-primary px-4"
+            className="hidden h-[311px] max-h-[90vh] xl:flex flex-col items-center fixed top-0 left-[2rem] z-10 bg-primary px-4"
           >
             <motion.div
               variants={fadeIn("down", "spring", 0.4, 0.5)}

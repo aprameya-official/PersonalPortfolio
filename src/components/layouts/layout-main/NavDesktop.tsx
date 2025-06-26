@@ -10,10 +10,11 @@ const NavDesktop = ({ activeSection }: { activeSection: string }) => {
             <Link
               href={x.linkTo}
               className={[
-                "px-4 py-6 block",
+                "px-4 py-6 block transition-all duration-300",
                 activeSection === x.linkTo.replace("/#", "")
-                  ? "text-white"
-                  : "text-gray",
+                  ? "text-accent font-bold scale-150 drop-shadow-lg z-10"
+                  : "text-gray-500 dark:text-gray-300 scale-100",
+                "hover:text-accent",
               ].join(" ")}
             >
               <span className="text-accent">#</span>

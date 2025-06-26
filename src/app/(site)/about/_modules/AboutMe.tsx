@@ -33,39 +33,34 @@ const AboutMe = () => {
           variants={swivelVariants}
           className="flex items-start flex-col space-y-4 lg:max-w-[515px] text-gray"
         >
-          <p>Hello, I&apos;m John Allen,</p>
+          <p>Hi, I'm Aprameya Pattnaik. My journey in tech started with curiosity—taking apart gadgets as a kid, then building my first website in high school. That spark grew into a passion for creating things that make life easier, smarter, and a little more fun.</p>
           <p>
-            A front-end developer from the Philippines with a passion for
-            crafting sleek, responsive websites from the ground up. I transform
-            ideas into modern, intuitive web experiences that engage users and
-            enhance brand presence.
+            I'm a final-year Computer Science Engineering student, but my learning goes far beyond the classroom. I've built everything from AI-powered fitness apps to full-stack hospital management systems, always focusing on how technology can solve real problems. I love blending frontend creativity (React, Next.js) with robust backend logic (Spring Boot, FastAPI, MySQL), and I'm always exploring new tools—especially in AI and automation.
           </p>
           <p>
-            With a track record of helping clients build a robust online
-            identity, I stay ahead of industry trends and am constantly
-            exploring new technologies and frameworks to ensure every project is
-            impactful and up-to-date.
+            What drives me isn't just code—it's the impact. I believe great software is about empathy: understanding users, anticipating needs, and delivering experiences that feel effortless. I thrive in collaborative teams, value clean code, and enjoy mentoring or learning from others. Certifications in cybersecurity and cloud (AWS, Google) have helped me see the bigger picture of building secure, scalable systems.
+          </p>
+          <p>
+            Beyond code, I'm a night owl who loves late-night problem-solving, cricket matches, and long drives. I find inspiration in music, mountains, and the quiet moments when ideas click. My goal? To keep learning, keep building, and use tech to make a positive difference—one project at a time.
           </p>
         </motion.div>
 
         <div>
           <div className="relative hidden lg:block">
             <Img
-              src="/images/about-me-1.png"
-              alt="hacker"
-              width="339"
-              height="507"
-              className="p-12 pb-0 lg:p-0"
-            />
-
-            <Img
               src="/images/accent-grid-1.png"
-              alt="hacker"
-              width="84"
-              height="84"
-              className="absolute top-8 left-0"
+              alt="accent grid"
+              width="420"
+              height="420"
+              className="absolute inset-0 w-full h-full object-contain opacity-30 blur-sm z-0"
             />
-
+            <Img
+              src="/images/about-me.png"
+              alt="Aprameya Pattnaik"
+              width="420"
+              height="630"
+              className="p-0 lg:p-0 relative z-10"
+            />
             <Img
               src="/images/accent-grid-2.png"
               alt="hacker"
@@ -73,7 +68,6 @@ const AboutMe = () => {
               height="56"
               className="absolute top-1/2 -translate-y-1/2 right-0"
             />
-
             <Img
               src="/images/accent-grid-3.png"
               alt="hacker"

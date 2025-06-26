@@ -76,13 +76,13 @@ const ModalSupportMe = ({
     e.preventDefault();
 
     const dataToSubmit = {
-      username: username,
+      username: "aprameya",
       supporter_name: form.name,
       supporter_message: form.message,
       amount: form.amount,
       source: "epaygames",
-      success_redirect_url,
-      failure_redirect_url,
+      success_redirect_url: `https://aprameya-portfolio.com/about`,
+      failure_redirect_url: `https://aprameya-portfolio.com/about`,
       is_anonymous: 1,
     };
 
@@ -136,10 +136,10 @@ const ModalSupportMe = ({
               decimalScale={2}
               value={form.amount}
               className={[
-                "text-24 font-bold bg-[transparent] outline-none w-full p-4 border bg-primary",
+                "text-24 font-bold bg-[transparent] outline-none w-full p-4 border bg-secondary dark:bg-secondary-dark",
                 errorField?.amount?.[0]
                   ? "border-red-500"
-                  : "border-gray focus:border-white",
+                  : "border-gray focus:border-accent",
                 loading ? "opacity-50 cursor-progress" : "",
               ].join(" ")}
               allowLeadingZeros={false}
